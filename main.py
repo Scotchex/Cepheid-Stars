@@ -15,5 +15,5 @@ min_area = min(dict.values())
 value_max = {i for i in dict if dict[i]==max_area}
 value_min = {i for i in dict if dict[i]==min_area}
 
-print(value_max - value_min)
+print((value_max - value_min)*1.5)
 
